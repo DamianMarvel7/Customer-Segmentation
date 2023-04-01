@@ -1,1 +1,8 @@
 # Customer-Segmentation
+This project aims to segment customers into groups based on their characteristics using two different approaches. The first approach involves using the KMeans algorithm to group customers based on their numerical values such as age, annual income, and spending score. The second approach involves creating a graph to detect clusters of customers based on their correlation values. By identifying customer groups, this project will assist in creating a marketing campaign that targets specific customers.
+
+The KMeans algorithm is an unsupervised learning algorithm that can group customers based on their similarities. By analyzing the customer data using this algorithm, we can determine how to group them based on certain criteria. For example, we may group customers based on their age range, annual income, and spending score. By doing so, we can identify patterns in customer behavior that can help us understand their preferences and tailor our marketing campaigns to suit their needs.
+
+The second approach involves creating a graph that detects clusters of customers based on their correlation values. This approach uses a network of nodes (customers) and edges (correlation values) to identify groups of customers. Customers with correlation values above 0.8 are connected by edges, and clusters can be detected by analyzing the connected nodes.
+
+Overall, this project aims to assist in creating a targeted marketing campaign by identifying customer groups based on their characteristics. By analyzing customer data using different approaches, we can identify patterns and make data-driven decisions to optimize our marketing strategies.
